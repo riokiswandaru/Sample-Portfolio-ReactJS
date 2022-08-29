@@ -1,0 +1,64 @@
+.main{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.navbar{
+    float: left;
+    top:0;
+    bottom: 0;
+    right: 80%;
+    left: 0;
+    background-color: #ff6e4a;
+    position: fixed;
+    overflow: auto;
+    padding: 15px;
+}
+
+.content{
+    float: right;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+    background-color:whitesmoke;
+    position: fixed;
+    overflow: auto;
+    padding: 25px;
+    text-align: justify;
+}
+
+.bersih{
+    clear: both;
+}
+
+img {
+    display: block;
+    margin: 200px auto 20px auto;
+    border-radius: 50%;
+    border-style:double;
+  }
+
+  .link{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #cfcac8;
+  }
+
+  .link:hover{
+    color:whitesmoke;
+  }
+
+  li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 ;
+  }
+
+.section{
+    margin: 400px 0 400px 0;
+}
